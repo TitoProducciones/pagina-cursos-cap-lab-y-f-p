@@ -1,0 +1,95 @@
+
+*{
+    margin: 0px;
+}
+hr{
+	height:2px;
+	background:red;
+}
+h1{
+    font-size: 30pt;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.btn-platzi{
+	background-color: #97c93e !important;
+	color: white;
+}
+
+.btn-platzi:hover {
+	background-color: #79A033 !important;
+}
+
+#footer{
+	background-color: #154360 ;
+}
+
+#footer a{
+	color: rgb(248, 245, 245);
+}
+
+#carousel{
+	position: relative;
+}
+
+#carousel .overlay{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0,0,.7);
+	color: white;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row{
+	height: 50%;
+}
+
+#main-slide .carousel-inner img{
+    max-height: 80vh;
+    object-fit: cover;
+}
+
+#place-time{
+	background-color: #343a40;
+	color: white;
+}
+
+#place-time img{
+	max-width: 100%;
+}
+
+p.conoce{
+    font-size: 20px;
+    text-align: center;
+}
+p.oradores{
+    font-size: 40px;
+    text-align: center; 
+}
+p.anotate{
+    text-align: center; 
+}
+
+.video-youtube{
+	
+	height: 0px;
+	padding-bottom: 56.25%;
+	position: relative;
+}
+
+.video-youtube iframe{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+}
+p.teEsperamos{
+	text-align: center; 
+}
